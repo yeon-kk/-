@@ -1,13 +1,13 @@
 ## Linear Regression in training
 ![LinearReg](https://user-images.githubusercontent.com/86847564/143281799-575b292b-b68d-4dad-bb19-ba290360a172.gif)
 
-data set : 1500, random_normal, height, weight  
-X: height  
-Y: weight  
+data set : 1500, random_normal, heights, weights  
+X: heights  
+Y: weights  
 
-Given that ' weight = height * 0.4 + 1 + random_noise '    
+Given that ' weights = heights * 0.4 + 1 + random_noise '    
 
-hypothesis: height * W + b = weight  
+hypothesis: weight = height * W + b  
 W means parameter, weight  
 b means parameter, bias  
 
