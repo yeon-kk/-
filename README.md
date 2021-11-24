@@ -7,7 +7,7 @@ Y: weights
 
 Given that ' weights = heights * 0.4 + 1 + random_noise '    
 
-hypothesis: weight = height * W + b  
+hypothesis: weights = heights * W + b  
 W means parameter, weight  
 b means parameter, bias  
 
