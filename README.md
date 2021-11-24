@@ -1,8 +1,7 @@
 ## Linear Regression in training
 ![LinearReg](https://user-images.githubusercontent.com/86847564/143281799-575b292b-b68d-4dad-bb19-ba290360a172.gif)
 
-###### data set : 1500, random_normal, height, weight
-###### X: height
+data set : 1500, random_normal, height, weight   X: height
 ###### Y: weight
 ###### Given that ' weight = height * 0.4 + 1 + random_noise
 
