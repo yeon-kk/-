@@ -4,7 +4,9 @@
 data set : 1500, random_normal, height, weight  
 X: height  
 Y: weight  
+
 Given that ' weight = height * 0.4 + 1 + random_noise '    
+
 hypothesis: height * W + b = weight  
 W means parameter, weight  
 b means parameter, bias  
