@@ -16,3 +16,7 @@ in 16 epoch weights(W and b) converged on a straight line
 
 Model predicts that W == 0.40570816 and b == 0.05904188  
 ![predict](https://user-images.githubusercontent.com/86847564/143284579-bf6a1055-6c60-4345-bb64-19af9be0da51.png)
+
+### input data ? 입력데이터의 '갯수' 가 '아님!' . 입력 데이터의 특징의 수라고 생각해야 한다.  
+예: 붓꽃 데이터 개수를 입력데이터 노드 개수에 반영되는게 아니라, 꽃받침 길이, 꽃받침 너비, 꽃입 길이, 꽃잎 너비 이렇게 4개가 되어야 한다.  
+헷갈리기 때문에 잘 기억해야 함
