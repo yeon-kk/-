@@ -24,3 +24,10 @@ Model predicts that W == 0.40570816 and b == 0.05904188
 keras 코드를 이용해서 손실값을 구하는 경우 binary cross entropy는 출력층 활성화함수로 softmax가 아니라 sigmoid를 사용하는 경우도 있다.  
 tf.keras.losses.SparseCategoricalCrossentropy : 출력이 one-hot encoding 형태가 아니라 정수형인 경우  
 tf.keras.losses.CategoricalCrossentropy : 출력이 one-hot encoding 형태인 경우  
+
+레이어와 노드 수를 헷갈리지 말기  
+은닉층 레이어 갯수는 노드수가 아니다. 입력층 은닉층 출력층으로 생각하면 좋음.  
+
+GAN  
+구분자를 먼저 훈련시킨 뒤, 생성자를 훈련시키는 순서로 진행.  
+cross entropy loss : GAN은 0과 1사이의 실수값을 출력하기 때문에, 여기에 log를 씌우면 log는 (0,1] 범위에서는 (음의무한대,0]이기 때문에 0으로 가까워진다는 것의 의미는 최대화 한다는 의미. (0으로 가까워지거나 음수값을 갖게 되기 때문에 0이 가장 큰 수)
