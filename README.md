@@ -31,3 +31,6 @@ tf.keras.losses.CategoricalCrossentropy : 출력이 one-hot encoding 형태인 �
 GAN  
 구분자를 먼저 훈련시킨 뒤, 생성자를 훈련시키는 순서로 진행.  
 cross entropy loss : GAN은 0과 1사이의 실수값을 출력하기 때문에, 여기에 log를 씌우면 log는 (0,1] 범위에서는 (음의무한대,0]이기 때문에 0으로 가까워진다는 것의 의미는 최대화 한다는 의미. (0으로 가까워지거나 음수값을 갖게 되기 때문에 0이 가장 큰 수)
+
+Fully Connected Network
+완전 연결 계층. 가장 먼저 배우는 그림을 떠올려보면 되는데, 모든 노드들이 연결되어있는 것을 의미한다.
