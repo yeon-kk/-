@@ -34,3 +34,8 @@ cross entropy loss : GAN은 0과 1사이의 실수값을 출력하기 때문에,
 
 Fully Connected Network
 완전 연결 계층. 가장 먼저 배우는 그림을 떠올려보면 되는데, 모든 노드들이 연결되어있는 것을 의미한다.
+
+배치정규화 : tf.compat.v1.layers.batch_normalization  
+어디에서 배치 정규화를 주로 하는지?
+Affine 계층 -> 배치정규화 -> 활성화함수 
+W*X + b 이후에 정규화를 진행
