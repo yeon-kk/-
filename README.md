@@ -38,6 +38,8 @@ Fully Connected Network
 배치정규화 : tf.compat.v1.layers.batch_normalization  
 어디에서 배치 정규화를 주로 하는지?  
 Affine 계층 -> 배치정규화 -> 활성화함수  
+배치정규화 이후에 행렬곱을 했었는데, 그러면 안됨.  
+대신 활성화함수 이후에 배치정규화를 하기도 한다.  
 W*X + b 이후에 정규화를 진행  
 
 AutoEncoder 특징  
